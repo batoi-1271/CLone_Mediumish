@@ -1,0 +1,253 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: normal;
+          box-sizing: normal;
+}
+
+body {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+main {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none !important;
+  list-style-type: none !important;
+  color: white !important;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+header {
+  border-bottom: 1px solid gray;
+}
+
+header .container nav form input {
+  border: 1px solid green;
+  border-radius: 20px;
+}
+
+header .container nav form span {
+  cursor: pointer;
+}
+
+.mainheading {
+  padding: 1rem 0rem;
+}
+
+.mainheading h1 {
+  color: #00ab6b;
+}
+
+a {
+  color: #00ab6b !important;
+}
+
+a, a:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.mediumnavigation {
+  background: rgba(255, 255, 255, 0.97);
+  -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.15);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.section-title h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 27px;
+}
+
+.section-title span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: -1px;
+}
+
+@media (min-width: 576px) {
+  .card-columns.listfeaturedtag {
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: .7rem;
+    padding-left: .7rem;
+  }
+}
+
+.card-columns .card {
+  margin-bottom: 20px;
+}
+
+.listfeaturedtag .wrapthumbnail {
+  height: 258px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.listfeaturedtag .card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  height: 260px;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+.listfeaturedtag .thumbnail {
+  background-size: cover;
+  height: 100%;
+  display: block;
+  background-position: 38% 22% !important;
+  background-origin: border-box !important;
+  border-top-left-radius: 2px;
+}
+
+.listfeaturedtag .card-block {
+  padding-left: 0;
+}
+
+.listfeaturedtag h2.card-title, .listfeaturedtag .listrecent h2.card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.listfeaturedtag .wrapfooter {
+  position: absolute;
+  bottom: 20px;
+  font-size: 12px;
+  display: block;
+  width: 85%;
+}
+
+.listfeaturedtag h4.card-text, .listrecent h4.card-text {
+  color: rgba(0, 0, 0, 0.44);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.listrecent .wrapfooter {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.author-thumb {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 13px;
+  border-radius: 100%;
+}
+
+.post-top-meta {
+  margin-bottom: 2rem;
+}
+
+.post-top-meta .author-thumb {
+  width: 72px;
+  height: 72px;
+}
+
+.post-top-meta .authorpage .author-thumb {
+  margin-top: 40px;
+}
+
+.post-top-meta span {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.44);
+  display: inline-block;
+}
+
+.post-top-meta .author-description {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 0.95rem;
+}
+
+.author-meta {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+}
+
+span.post-name, span.post-date, span.author-meta {
+  display: inline-block;
+}
+
+span.post-date, span.post-read {
+  color: rgba(0, 0, 0, 0.44);
+}
+
+span.post-read-more {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: right;
+  margin-top: 8px;
+}
+
+span.post-read-more a {
+  color: rgba(0, 0, 0, 0.44);
+}
+
+span.post-name a, span.post-read-more a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.dot:after {
+  content: "·";
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.recent-posts .card-columns .card {
+  height: 520px;
+}
+
+.recent-posts .card-columns .card .card-block {
+  margin-left: 28px;
+}
+
+.recent-posts .card-columns .card .card-block .card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.recent-posts .card-columns .card .card-block .wrapfooter {
+  margin-top: 50px;
+  height: 80px;
+}
+
+.footer {
+  height: 50px;
+  border-top: 1px solid gray;
+  padding-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */
